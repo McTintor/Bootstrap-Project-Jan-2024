@@ -1,0 +1,18 @@
+.hero {
+	z-index: -100;
+	background: linear-gradient(-45deg, lightblue, rgb(242, 245, 247),cyan, rgb(78, 155, 243), royalblue);
+    background-size: 400% 400%;
+	animation: animate 10s ease infinite;
+}
+
+@keyframes animate {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
